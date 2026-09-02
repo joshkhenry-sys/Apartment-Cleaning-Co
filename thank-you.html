@@ -1,0 +1,229 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Thank You | Fresh Start Cleaning Co.</title>
+
+  <meta name="description" content="Thank you for contacting Fresh Start Cleaning Co. Your cleaning quote request has been received.">
+
+  <style>
+    :root {
+      --cream: #F7F7F2;
+      --charcoal: #1C1C1A;
+      --sage: #A8B8A0;
+      --forest: #2F4638;
+      --sand: #D8D0C3;
+      --white: #FFFFFF;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--cream);
+      color: var(--charcoal);
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav {
+      height: 76px;
+      border-bottom: 1px solid rgba(28, 28, 26, 0.12);
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-inner {
+      width: min(1120px, 92%);
+      margin: 0 auto;
+    }
+
+    .logo {
+      color: var(--charcoal);
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 800;
+      letter-spacing: -0.4px;
+    }
+
+    .logo span {
+      color: var(--forest);
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 70px 20px;
+    }
+
+    .thank-you {
+      width: min(650px, 100%);
+      text-align: center;
+    }
+
+    .mark {
+      width: 70px;
+      height: 70px;
+      margin: 0 auto 30px;
+      border-radius: 50%;
+      background: var(--sage);
+      color: var(--forest);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      font-weight: 900;
+    }
+
+    .eyebrow {
+      color: var(--forest);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1.7px;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(48px, 8vw, 78px);
+      line-height: 0.95;
+      letter-spacing: -4px;
+      margin-bottom: 24px;
+    }
+
+    p {
+      color: #66665f;
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 520px;
+      margin: 0 auto 35px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px 24px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 800;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      opacity: 0.9;
+    }
+
+    .primary {
+      background: var(--forest);
+      color: var(--white);
+    }
+
+    .secondary {
+      border: 1px solid rgba(28, 28, 26, 0.15);
+      color: var(--charcoal);
+    }
+
+    .note {
+      margin-top: 45px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(28, 28, 26, 0.12);
+      font-size: 13px;
+      color: #85857d;
+    }
+
+    footer {
+      padding: 25px 20px;
+      text-align: center;
+      color: #85857d;
+      font-size: 12px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        height: 68px;
+      }
+
+      h1 {
+        letter-spacing: -2.5px;
+      }
+
+      main {
+        padding: 55px 20px;
+      }
+
+      .button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        FRESH START <span>CLEANING CO.</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="thank-you">
+
+      <div class="mark">✓</div>
+
+      <div class="eyebrow">Request Received</div>
+
+      <h1>You're all set.</h1>
+
+      <p>
+        Thanks for reaching out to Fresh Start Cleaning Co.
+        We've received your request and will be in touch shortly
+        to discuss your cleaning.
+      </p>
+
+      <div class="buttons">
+        <a href="tel:7209370081" class="button primary">
+          CALL 720-937-0081
+        </a>
+
+        <a href="index.html" class="button secondary">
+          BACK TO HOME
+        </a>
+      </div>
+
+      <div class="note">
+        Need us sooner? Give us a call and we'll be happy to chat.
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    © 2026 Fresh Start Cleaning Co. · Denver, Colorado
+  </footer>
+
+</body>
+</html>
+```
